@@ -1,0 +1,11 @@
+# Jupyter notebook support
+jupyter>=1.0.0
+notebook>=6.4.3
+# R compatibility and Jupyter support
+jupyter_core>=4.1.1
+jupyter_console>=6.0.0
+jupyter-client>=7.1.2
+jupyter-contrib-nbextensions>=0.5.1
+jupyter-nbextensions-configurator>=0.4.1
+rpy2>=3.5.5
+

@@ -1,5 +1,5 @@
-# Jupyter Notebook configuration for automatic output sizing
-# This config makes output windows automatically match their content size
+# Jupyter Notebook configuration with R support
+# This config provides R kernel support and automatic output sizing
 
 c = get_config()
 
@@ -16,3 +16,7 @@ c.OutputArea.auto_resize_height = True          # Auto-resize height to content
 c.NotebookApp.nbserver_extensions = {
     'jupyterlab': True
 }
+
+# R kernel configuration
+c.KernelSpecManager.ensure_native_kernel = False  # Allow non-Python kernels
+c.MultiKernelManager.default_kernel_name = 'python3'  # Default to Python
