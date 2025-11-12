@@ -8,14 +8,14 @@ SW-econometrics-exercises/
 ├── Chapters/
 │   └── Chapter4/
 │       ├── common-requirements.txt            # General requirements
-│       ├── Python code/                # Python implementation
+│       ├── environment.yml                   # Conda environment file
+│       ├── Python code/                      # Python implementation
 │       │   ├── Earnings_and_Height_Python.ipynb
-│       │   └── requirements.txt       # Python-specific requirements
-│       ├── R \ code/                   # R implementation (note escaped space)
+│       │   └── requirements.txt             # Python-specific requirements
+│       ├── R code/                          # R implementation
 │       │   ├── Earnings_and_Height_R.ipynb
-│       │   ├── install_R_packages.R
-│       │   └── requirements.txt       # R-specific requirements
-│       └── Used data and given exercise/  # Data and instructions
+│       │   └── install_R_packages.R
+│       └── Used data and given exercise/     # Data and instructions
 │           ├── Earnings and Height Exercise.pdf
 │           ├── Earnings_and_Height_Description.pdf
 │           ├── Earnings_and_Height.ods
@@ -23,8 +23,8 @@ SW-econometrics-exercises/
 │           ├── Page 1.png
 │           └── Page 2.png
 ├── config/
-│   └── jupyter_notebook_config.py      # Jupyter configuration
-└── README.md                           # This documentation
+│   └── jupyter_notebook_config.py            # Jupyter configuration
+└── README.md                                 # This documentation
 ```
 
 ## Project Overview
@@ -56,6 +56,7 @@ You will need to run the given commands in the respective chapter folders.
    ```
 7. (Optional) setup config file for Jupyter (see below)
 
+Using this method, you don't need to install the specific packages for Python and R.
 
 ## Alternatively:
 
