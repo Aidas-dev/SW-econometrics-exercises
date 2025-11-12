@@ -69,8 +69,7 @@ pip install -r "Chapters/Chapter4/common-requirements.txt"
 3. Apply Jupyter configuration (see below)
 
 ### Python Setup
-1. 
-2. Install requirements:
+1. Install requirements:
 ```bash
 pip install -r "Chapters/Chapter4/Python \ code/requirements.txt"
 ```
@@ -123,7 +122,7 @@ jupyter notebook
 ## Data Files
 Available in:
 - OpenDocument (.ods)
-- Excel (.xlsx)
+- Excel (.xlsx), problems reading this file so ODS is used instead.
 
 Variables include:
 - age, earnings, education, height
