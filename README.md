@@ -32,12 +32,43 @@ This repository contains implementations of econometrics exercises from Chapter 
 
 ## Environment Setup
 
+Each chapter has its own set of requirements, which can be installed using the provided instructions.  <br>
+You will need to run the given commands in the respective chapter folders.
+
+### Environment Setup using Mamba (Recommended)
+
+1. Clone this repository
+2. Cleanly install (recommended) Mambaconda to system if not already installed: <br>
+[Mamba installation guide](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html)
+3. Switch to the needed chapter folder in terminal (cd command in Linux)
+4. Create and activate environment using mamba, from the file in specific chapter of the repository:
+   ```bash
+   mamba env create -f environment.yml
+   mamba activate SW-econometrics-'chapter you used'-env
+   ```
+5. Register R kernel for Jupyter:
+   ```bash
+   Rscript -e "IRkernel::installspec(name = 'SW-econometrics-r', displayname = 'R (SW econometrics)')"
+   ```
+6. Start Jupyter notebook:
+   ```bash
+   jupyter notebook
+   ```
+7. (Optional) setup config file for Jupyter (see below)
+
+
+## Alternatively:
+
 ### Common Requirements
-1. Jupyter Notebook (`pip install notebook`)
-2. Apply Jupyter configuration (see below)
+1. Have Python and pip installed (https://www.python.org/downloads/)
+2. Install common requirements:
+```bash
+pip install -r "Chapters/Chapter4/common-requirements.txt"
+```
+3. Apply Jupyter configuration (see below)
 
 ### Python Setup
-1. Install Python 3.6+
+1. 
 2. Install requirements:
 ```bash
 pip install -r "Chapters/Chapter4/Python \ code/requirements.txt"
