@@ -1,0 +1,20 @@
+# Python package requirements for Econometrics Project
+# Core data analysis packages
+pandas>=1.2.4
+numpy>=1.20.3
+
+# Data visualization
+matplotlib>=3.4.2
+seaborn>=0.11.1
+
+# Data file handling
+odfpy>=1.4.0
+
+# Statistical modeling
+statsmodels>=0.12.2
+
+# Jupyter notebook support
+jupyter>=1.0.0
+
+# R compatibility and Jupyter support
+rpy2>=3.5.5

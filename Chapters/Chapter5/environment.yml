@@ -1,4 +1,4 @@
-name: SW-econometrics-chapter4-env
+name: SW-econometrics-chapter5-env
 channels:
   - conda-forge
 dependencies:
