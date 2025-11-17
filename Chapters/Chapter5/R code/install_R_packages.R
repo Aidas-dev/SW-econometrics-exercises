@@ -1,5 +1,5 @@
 # Install packages for econometrics project, jupyter notebook, and R kernel in RStudio
-packages <- c("devtools", "repr", "IRdisplay", "pbdZMQ", "uuid", "IRkernel", "data.table", "ggplot2", "readODS")
+packages <- c("devtools", "repr", "IRdisplay", "pbdZMQ", "uuid", "IRkernel", "data.table", "tidyverse", "readODS", "conflicted")
 
 # Install all packages with dependencies
 install.packages(packages, dependencies = TRUE)
